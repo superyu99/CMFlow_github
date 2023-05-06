@@ -3,8 +3,8 @@ model: cmflow
 
 ## training 
 num_points: 256
-batch_size: 16 #16 32
-val_batch_size: 8 #8 16
+batch_size: 2 #16 32
+val_batch_size: 2 #8 16
 epochs: 60 #30
 lr: 0.001 #0.001
 decay_epochs: 1
@@ -21,7 +21,7 @@ eval: True
 eval_split: test
 dataset: vodDataset # vodClipDataset
 train_set: train 
-dataset_path: /mnt/12T/fangqiang/preprocess_res/flow_smp/
+dataset_path: /root/autodl-tmp/CMFlow_github/data_out/flow_smp/
 vis: False
 save_res: False
 

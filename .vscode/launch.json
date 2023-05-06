@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: preprocess_vod.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/preprocess/preprocess_vod.py",
+            "args": ["--root_dir", "/root/autodl-tmp/CMFlow_github/data", "--save_dir", "/root/autodl-tmp/CMFlow_github/data_out"],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

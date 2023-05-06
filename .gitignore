@@ -68,3 +68,4 @@ venv/
 /src
 /preprocess/label_track_gt
 /checkpoints
+/data_out

@@ -13,7 +13,7 @@ from scipy.spatial.transform import Rotation as R
 
 class vodDataset(Dataset):
 
-    def __init__(self, args, root='/mnt/12T/fangqiang/vod_unanno/flow_smp/', partition='train', textio=None):
+    def __init__(self, args, root='/root/autodl-tmp/CMFlow_github/data_out/flow_smp', partition='train', textio=None):
 
         self.npoints = args.num_points
         self.textio = textio
