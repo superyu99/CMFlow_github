@@ -9,6 +9,23 @@
             "args": ["--root_dir", "/root/autodl-tmp/CMFlow_github/data", "--save_dir", "/root/autodl-tmp/CMFlow_github/data_out"],
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "--dataset_path",
+                "/DISK_F/CMFlow_data_out/data_out/flow_smp/",
+                "--exp_name",
+                "first-test",
+                "--model",
+                "cmflow"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }

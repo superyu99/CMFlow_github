@@ -3,7 +3,6 @@ import argparse
 import sys
 import copy
 import torch
-from time import clock
 from tqdm import tqdm
 import cv2
 import open3d as o3d
